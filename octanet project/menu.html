@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Menu - Our Restaurant</title>
+   <style>
+    body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+header {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    background: url('meno.jpg') no-repeat center center/cover;
+    color: white;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    background: rgba(0, 0, 0, 0.5);
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.hero {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.hero h1 {
+    font-size: 4em;
+    margin: 0;
+}
+
+.hero p {
+    font-size: 1.5em;
+    margin: 10px 0;
+}
+
+.cta-button {
+    display: inline-block;
+    padding: 10px 20px;
+    color: white;
+    background: #e74c3c;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 1.2em;
+    transition: background 0.3s;
+}
+
+.cta-button:hover {
+    background: #c0392b;
+}
+
+main {
+    padding: 20px;
+}
+
+h1 {
+    font-size: 2.5em;
+    color: #333;
+}
+
+h2 {
+    font-size: 2em;
+    color: #444;
+    margin-top: 20px;
+}
+
+p {
+    font-size: 1.2em;
+    color: #666;
+}
+
+.menu-section {
+    margin: 20px 0;
+}
+
+.menu-section ul {
+    list-style: none;
+    padding: 0;
+}
+
+.menu-section ul li {
+    font-size: 1.2em;
+    margin: 10px 0;
+}
+
+.menu-section ul li strong {
+    color: #333;
+}
+
+   </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="menu.html">Menu</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <h1>Our Menu</h1>
+        <section class="menu-section">
+            <h2>Appetizers</h2>
+            <ul>
+                <li><strong>Bruschetta</strong> - Grilled bread topped with tomato, garlic, and basil. $6.99</li>
+                <li><strong>Stuffed Mushrooms</strong> - Mushrooms filled with cheese and herbs. $7.99</li>
+                <li><strong>Garlic Bread</strong> - Toasted bread with garlic and herbs. $5.99</li>
+            </ul>
+        </section>
+        <section class="menu-section">
+            <h2>Main Courses</h2>
+            <ul>
+                <li><strong>Grilled Salmon</strong> - Served with a lemon butter sauce and vegetables. $19.99</li>
+                <li><strong>Chicken Alfredo</strong> - Pasta with creamy Alfredo sauce and grilled chicken. $16.99</li>
+                <li><strong>Beef Tenderloin</strong> - Served with mashed potatoes and asparagus. $24.99</li>
+                <li><strong>Vegetarian Lasagna</strong> - Layers of pasta, vegetables, and cheese. $14.99</li>
+            </ul>
+        </section>
+        <section class="menu-section">
+            <h2>Desserts</h2>
+            <ul>
+                <li><strong>Tiramisu</strong> - Classic Italian dessert with coffee-soaked ladyfingers. $6.99</li>
+                <li><strong>Cheesecake</strong> - Creamy cheesecake with a graham cracker crust. $7.99</li>
+                <li><strong>Chocolate Lava Cake</strong> - Warm chocolate cake with a molten center. $8.99</li>
+            </ul>
+        </section>
+    </main>
+</body>
+</html>
